@@ -40,7 +40,7 @@ img {
     align-items: center;
     height: 400px;
     background-color: rgb(38, 133, 133);
-    gap:30px;
+    gap:50px;
 }
 
 .informacion {
@@ -54,4 +54,44 @@ img {
 
 .textoInfo {
     font-size: 18px;
+}
+
+.buttom {
+    background-color: blue;
+    width: 25%;
+    padding: 3px;
+    text-align: center;
+}
+
+.cajas {
+    border: solid 3px blue;
+    width: 100px;
+    height: 100px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+
+.randomInfo {
+    text-align: center;
+    font-size: 36px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+}
+
+.cajasInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
