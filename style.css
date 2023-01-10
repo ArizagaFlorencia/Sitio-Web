@@ -1,27 +1,32 @@
 body {
-    margin: 0px;
+    margin: 0;
     padding: 0px;
 }
 
 .head {
+    background-color: rgb(21, 102, 102);
     display: flex;
-    background-color: rgb(11, 151, 151);
-    align-items: center;
     justify-content: space-around;
+    align-items: baseline;
+    padding: 5px;
 }
 
 .logo {
     font-size: 24px;
-    font-weight: bold;
+    color: aliceblue;
 }
 
-.links, ul, a{
+.links, ul, a {
     display: flex;
     list-style-type: none;
     text-decoration: none;
-    color: black;
-    gap: 10px;
+    gap:14px;
     font-size: 18px;
+    color: aliceblue;
+}
+
+img {
+    width: 25%;
 }
 
 .container {
@@ -30,19 +35,23 @@ body {
 }
 
 .section1 {
-    padding: 20px;
-    background-color: rgb(56, 133, 122);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 400px;
-    gap:10px;
+    background-color: rgb(38, 133, 133);
+    gap:30px;
 }
 
 .informacion {
-    width: 40%;
+    width: 30%;
+    color: aliceblue;
 }
 
-img{
-    width: 40%;;
+.tituloInfo {
+    font-size: 48px;
+}
+
+.textoInfo {
+    font-size: 18px;
 }
